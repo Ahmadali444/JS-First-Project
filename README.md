@@ -1,5 +1,5 @@
 # hello-world
 Hello World repository for Git tutorial
-This is an example repository for the Git tutoial on https://ahmed-first-assignment.surge.sh
+This is an example repository for the Git tutoial on http://ahmed-first-js-project.surge.sh/
 
 This repository is built step by step in the tutorial.
