@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../assets/img/pexels-joyston-judah-933054.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+
+#navName {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navName{
+    font-size: 25px;
+}
+
+main {
+    flex: 1 0 auto;
+    margin: 0 15%;
+}
+
+hr {
+    margin: 20px 15% 0;
+}
+
+
+/* Header */
+.navbar {
+    background-color: #0E2547;
+    padding: 10px 15%;
+
+}
+
+.navItems {
+    color: white;
+    font-size: 15px;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.d-flex {
+    margin-bottom: 5px;
+}
+
+.form-control {
+    height: 35px;
+    margin-top: 4px;
+}
+
+#sear {
+    margin-top: 4px;
+}
+
+/* Main Part */
+.box {
+    border: 2px solid #C6CFCA;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.set {
+    float: left;
+    width: 460px;
+}
+
+.real {
+    background-color: #1D3557;
+    color: white;
+}
+
+.input-group {
+    margin: 4px 0;
+}
+
+.h {
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.p {
+    margin-top: 20px;
+}
+
+.set1 {
+    margin-left: 10px;
+    float: right;
+}
+
+.set2 {
+    margin-right: 10px;
+}
+
+/* button */
+.btn {
+    font-size: 12px;
+    margin-top: 10px;
+    width: 40%;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn:hover {
+    background-color: #0E2547;
+}
+
+.btnClear {
+    margin-top: 4px;
+}
+
+.codeout {
+    margin: 0;
+    font-size: 18px;
+}
+
+.outPut {
+    height: 44vh;
+    overflow: auto;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #0E2547;
+    border-radius: 30px;
+}
+
+
+/* footer */
+footer {
+    height: 50px;
+    background-color: #0E2547;
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+footer p {
+    margin-top: 13px;
+    font-size: 14px;
+}
+
+/* JS Variable Styles */
+
+.greennewCity {
+    color: green;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Shantell Sans', cursive;
+}
+
+.rednewCity {
+    color: red;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Shantell Sans', cursive;
+}

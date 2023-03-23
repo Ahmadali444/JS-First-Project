@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Assignment</title>
+
+    <!-- BootStrap Css Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+
+    <!-- Custom Css Link -->
+    <link rel="stylesheet" href="./styles/home.css" />
+
+    <!-- Toastify Link -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css" />
+  </head>
+
+  </head>
+
+  <body id="body">
+    <header>
+      <nav class="navbar navbar-expand-lg pad ml-5"> 
+        <p id="navName"><span class="navName">WELLCOME! </span></p>
+      </nav>
+    </header>
+    <main>
+      <h4 class="h">Assalam-0-Alaikum</h4>
+      <hr />
+
+      <div class="set set2">
+        <h4 class="p">Input</h4>
+        <div class="pad box">
+          <div class="input-group">
+            <input
+              type="text"
+              id="inCity"
+              class="form-control"
+              placeholder="Type Your City/Enter Word"
+              aria-label="Type your text here"
+              aria-describedby="button-addon2" />
+            <button
+              class="btn btn-outline-secondary btnClear"
+              type="button"
+              id="button-addon2" onclick="inputClear()">
+              Clear
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="set set1">
+        <h4 class="p">Output / Result</h4>
+        <div class="pad box outPut">
+          <p id="output" class="codeout"></p>
+        </div>
+        <button
+          type="button"
+          class="btn btn-outline-secondary"
+          onclick="outclear()">
+          Clear Result
+        </button>
+      </div>
+      <div class="set set2">
+        <h4 class="p">Buttons</h4>
+        <div class="pad box">
+          <button type="button" class="btn" onclick="printCities()">
+            Print All Cities
+          </button>
+          <button type="button" class="btn" onclick="addCity()">
+            Add Your City In List
+          </button>
+          <button type="button" class="btn" onclick="seeCity()">
+            Cheak Your City In List
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2023. Assignments By <b>www.umairahmad.net</b></p>
+    </footer>
+
+    <!-- BootStrap Javascript Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"></script>
+    <!-- Custom Javascript Link -->
+    <script src="./js/home.js"></script>
+
+    <!-- Toastify Link -->
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+  </body>
+</html>
